@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-
+*{
+    font-family: 'Roboto', sans-serif;
+}
 header{
     background-color: #1F2937;
   
-    font-family: 'Roboto', sans-serif;
-    display: flex;
     
+    display: flex;
+    box-sizing: border-box;
 }
 header>.navbar{
     display: inline-flex;
@@ -38,4 +40,84 @@ header>.navbar>.nav-right>span{
     color: #e5e7eb;
     font-size: 18px;
     margin-left: 5px;
+}
+.top{
+    padding : 90px;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: inline-flex;
+    background-color: #1F2937;
+    border: 3px solid blue;
+    width : 100%;
+    box-sizing: border-box;
+}
+.top>.top-block{
+    flex:1;
+    border: 3px solid red;
+    display : flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.top>.top-block>#awesome{
+    color: #F9FAF8;
+    font-size: 48px ;
+    font-weight: bolder;
+
+}
+.top>.top-block>#subtext{
+    font-size:18px;
+    color: #e5e7eb;
+
+
+}
+#signup{
+    background-color: #3882f6;
+    padding:8px;
+    width:90px;
+    border-radius: 5px;
+    color: white;
+    border:none;
+}
+.top-block>img{
+    align-self: center;
+    flex:1;
+    padding:30px;
+    height:200px;
+    width:400px;
+}
+#subheader{
+    text-align: center;
+    padding:20px;
+    font-size:24px;
+    width: 100%;
+    font-weight: bold;
+    border: 3px solid red;
+    box-sizing: border-box;
+}
+.information-tab>#gallery{
+    display: inline-flex;
+    justify-content: space-evenly;
+    padding:40px;
+    padding-left: 90px;
+    padding-right: 90px;
+    width: 100%;
+    border: 3px solid blue;
+    box-sizing: border-box;
+
+}
+.information-tab>#gallery>.gallery-item{
+    display:flex;
+    flex-direction: column;
+
+}
+.information-tab>#gallery>.gallery-item>img{
+    height:90px;
+    width:90px;
+    border : 3px solid blue;
+    border-radius: 10px;
+}
+.information-tab>#gallery>.gallery-item>p{
+    box-sizing: border-box;
+    height:90px;
+    width:90px;
 }
