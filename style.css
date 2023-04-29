@@ -1,7 +1,38 @@
 header{
     background-color: #1F2937;
     font-size: 18px;
+    
+    color:white;
     font-family: 'Roboto', sans-serif;
     display: flex;
+    
 }
-
+header>.navbar{
+    display: inline-flex;
+    border:  10px solid red;
+    
+    justify-content: flex-start;
+    width:100%;
+    align-items: center;
+    
+}
+header>.navbar>.nav-left{
+    flex:1;
+    border: 3px solid red;
+    
+    display:inline-block;
+}
+header>.navbar>.nav-right{
+    border: 3px solid blue;
+    flex:1;
+    display:flex;
+    justify-content: center;   
+    
+    color:white;
+    
+}
+header>.navbar>.nav-right>span{
+    border:3px solid white;
+    flex:1;
+    margin-left: 5px;
+}
