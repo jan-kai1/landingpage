@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 header{
     background-color: #1F2937;
-    font-size: 18px;
-    
-    color:white;
+  
     font-family: 'Roboto', sans-serif;
     display: flex;
     
@@ -10,7 +10,7 @@ header{
 header>.navbar{
     display: inline-flex;
     border:  10px solid red;
-    
+   
     justify-content: flex-start;
     width:100%;
     align-items: center;
@@ -18,21 +18,24 @@ header>.navbar{
 }
 header>.navbar>.nav-left{
     flex:1;
-    border: 3px solid red;
-    
+    /* border: 3px solid red; */
+    font-size: 24px;
+    color: #f9faf8;;
+    padding-left:15%;
     display:inline-block;
 }
 header>.navbar>.nav-right{
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
     flex:1;
     display:flex;
     justify-content: center;   
-    
+    padding:20px;
     color:white;
     
 }
 header>.navbar>.nav-right>span{
-    border:3px solid white;
-    flex:1;
+    /* border:3px solid white; */
+    color: #e5e7eb;
+    font-size: 18px;
     margin-left: 5px;
 }
