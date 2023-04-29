@@ -11,7 +11,7 @@ header{
 }
 header>.navbar{
     display: inline-flex;
-    border:  10px solid red;
+    /* border:  10px solid red; */
    
     justify-content: flex-start;
     width:100%;
@@ -47,13 +47,13 @@ header>.navbar>.nav-right>span{
     padding-right: 150px;
     display: inline-flex;
     background-color: #1F2937;
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
     width : 100%;
     box-sizing: border-box;
 }
 .top>.top-block{
     flex:1;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     display : flex;
     flex-direction:column;
     justify-content: center;
@@ -91,7 +91,7 @@ header>.navbar>.nav-right>span{
     font-size:24px;
     width: 100%;
     font-weight: bold;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     box-sizing: border-box;
 }
 .information-tab>#gallery{
@@ -101,7 +101,7 @@ header>.navbar>.nav-right>span{
     padding-left: 90px;
     padding-right: 90px;
     width: 100%;
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
     box-sizing: border-box;
 
 }
@@ -113,7 +113,7 @@ header>.navbar>.nav-right>span{
 .information-tab>#gallery>.gallery-item>img{
     height:90px;
     width:90px;
-    border : 3px solid blue;
+    /* border : 3px solid blue; */
     border-radius: 10px;
 }
 .information-tab>#gallery>.gallery-item>p{
@@ -135,7 +135,7 @@ header>.navbar>.nav-right>span{
     flex:1;
     font-size:36px;
     font-style: italic;
-    border:3px solid red;
+    /* border:3px solid red; */
     text-align: left;
 }
 .quote>#author{
@@ -143,7 +143,7 @@ header>.navbar>.nav-right>span{
     font-style:bold;
     text-align:right;
     margin-top:-30px;
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
 }
 .bottom{
     padding : 90px;
@@ -151,17 +151,18 @@ header>.navbar>.nav-right>span{
     padding-right: 150px;
     display: inline-flex;
     background-color:  #3882f6;
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
     width : 100%;
     box-sizing: border-box;
     background-clip: content-box;
     
 }
 .bottom>.calltoaction{
+    padding:50px;
     display:flex;
     flex:2;
     flex-direction: column;
-    border: 3px solid red;
+    /* border: 3px solid red; */
 }
 .bottom>.calltoaction>#calltext{
     color:white;
@@ -179,7 +180,7 @@ header>.navbar>.nav-right>span{
     display:flex;
     justify-content: center;
     align-items: center;
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
 
 }
 .bottom>.callbutton>button{
@@ -189,4 +190,14 @@ header>.navbar>.nav-right>span{
     border-radius: 5px;
     color: white;
     border:2px solid white;
+}
+.footer{
+    background-color: #1F2937;
+    text-align: center;
+    color:white;
+    font-size: 12px;
+    box-sizing: border-box;
+    height:60px;
+    width: 100%;
+    padding: 20px;
 }
